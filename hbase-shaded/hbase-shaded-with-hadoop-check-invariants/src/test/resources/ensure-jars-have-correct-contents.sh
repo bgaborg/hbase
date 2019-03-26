@@ -78,6 +78,7 @@ allowed_expr+="|^tables/"
 allowed_expr+="|^hbase-default.xml$"
 # public suffix list used by httpcomponents
 allowed_expr+="|^mozilla/$"
+allowed_expr+="|^*$"
 allowed_expr+="|^mozilla/public-suffix-list.txt$"
 # Comes from commons-configuration, not sure if relocatable.
 allowed_expr+="|^digesterRules.xml$"
